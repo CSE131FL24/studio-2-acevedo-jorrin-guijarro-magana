@@ -16,11 +16,11 @@ public class Ruin {
 		double winLimit= in.nextDouble ();
 
 		double currentAmount = startAmount;
-		double playerChance = Math.random();
+		//double playerChance = Math.random();
 
 		while (currentAmount> 0 && currentAmount < winLimit) {
 			//keep gambling
-			playerChance = Math.random();
+			double playerChance = Math.random();
 			
 			if (playerChance <= winChance) {
 				//win & reward
