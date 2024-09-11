@@ -15,7 +15,18 @@ public class Ruin {
 	System.out.println("Enter win amount");	
 		double winLimit= in.nextDouble ();
 		
-		while (currentAmountstartAmount < winLimit;
+		double currentAmount = startAmount;
+		double playerChance = Math.random();
+		
+	while (currentAmount> 0 && currentAmount < winLimit) {
+		//keep gambling
+		if (playerChance <= winChance) {
+			//win & reward
+		} else if (playerChance > winChance) {
+			//lose & money loss
+		}
+		
+	}
 		
 
 	
